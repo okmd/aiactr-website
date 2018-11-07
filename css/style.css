@@ -1,0 +1,178 @@
+
+/* header */
+header h1,
+header h2,
+header h3,
+header h4,
+header h5,
+header h6
+{
+	color: #f04f3d;
+}
+header #BottomNavbar h4{
+	color: white;
+}
+header .navbar-default{
+	background: #f04f3d;
+	margin-bottom: 0px;
+	border: 0px;
+	border-radius: 0px;
+}
+#TopNavbarHover{
+	margin-top: -45px;
+	transition: margin-top .5s;
+}
+#TopNavbarHover:hover{
+	margin-top:0px; 
+}
+#TopNavbar ul li{}
+#TopNavbar ul li a{
+	color: white;
+}
+#TopNavbar ul li a:hover{
+	background:white;
+	color: #f04f3d;
+}
+header .container-large
+{
+  transition: all .3s ease-in;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height:auto;
+  background:rgb(46, 155, 160);
+  display:none;
+  z-index: 1000;
+  color:rgba(245, 245, 245, 0.87);
+}
+#BottomNavbar ul{}
+#BottomNavbar ul li{position: initial;}
+#BottomNavbar ul li:hover{
+	background:rgb(46, 155, 160);
+
+}
+#BottomNavbar ul li a{
+	color: white;
+}
+#BottomNavbar ul li a:hover{
+	background:rgb(46, 155, 160);
+}
+
+@media only screen and (min-width:770px) {
+header ul li:hover ul.dropdown-menu,header ul li:hover div.container-large{
+	display: block; 
+	}
+}
+@media only screen and (max-width:770px) {
+div.container-large ul li a{
+	text-align: center;
+	}
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #555;
+    background-color:#2e9ba0;
+}
+#about ul,
+#administration ul,
+#admission ul,
+#academics ul,
+#notice ul,
+#exam ul,
+#tpo ul,
+#campus-life ul{
+	padding:0px;
+}
+#about ul li,
+#administration ul li,
+#admission ul li,
+#academics ul li,
+#notice ul li,
+#exam ul li,
+#tpo ul li,
+#campus-life ul li{
+	 list-style: none;
+}
+#about ul li a,
+#administration ul li a,
+#admission ul li a,
+#academics ul li a,
+#notice ul li a,
+#exam ul li a,
+#tpo ul li a,
+#campus-life ul li a{
+	 display: block;
+}
+header #logoImg{
+	width: 150px;
+	height: 150px;
+	margin:5px auto;
+}	
+/* header */ 
+
+/* Carousel*/
+#myCarousel .item img{
+	/*height: 350px;*/
+	width: 100%;
+}
+.carousel-control.left,.carousel-control.right{background: none;}
+/*Carousel*/
+
+/*jumbotron*/
+#home_panels{
+	margin-top: 10px;
+}
+#home_panels ul{
+	padding-left: 10px;
+}
+
+#home_panels #hCompany li{
+	
+	display: inline-block;
+}
+#home_panels ul li{
+	list-style: none;
+}
+#home_panels ul li a{
+	text-decoration: none;
+}
+#home_panels .nav-tabs{
+	background: white;
+ }
+#home_panels .nav-tabs li{
+ 	width: 50%;	
+ }
+#home_panels .nav-tabs li a:hover{
+	color:#080808;
+}
+#home_panels .center-block{
+	margin-right: 5px;
+	margin-top: 5px;
+	box-shadow:-2px 2px 8px 1px rgb(51, 122, 183);
+}
+/*jumbotron*/
+
+/*footer*/
+footer{
+	background:rgba(0,0,0,0.8);
+	color: white;
+}
+footer .footer-icons{
+	vertical-align:0px;
+	margin:5px 2px;
+	text-align-last: center;
+	width: 25px;
+	display:inline-block;
+	color: white;
+		}
+footer .footer-text{
+	display:inline-block;
+	color: white;
+		}
+footer .social-icons span{
+	font-size: 22px;
+}
+footer span:nth-child(2):hover{
+	text-decoration: underline;
+	color: white;
+}
+/*fotter*/
